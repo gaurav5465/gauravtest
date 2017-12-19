@@ -1,0 +1,112 @@
+﻿body {
+    background-color: #9c9f84;
+    margin: 0px;
+    font-family: Verdana, Georgia, serif;
+    font-size: 14px;
+    background-image: url("play.jpg");
+}
+
+#header {
+    background-color: #5c755e;
+    margin: 10px;
+    height: 90px;
+    border-radius: 5px;
+    /*background-image:url(money.jpg);*/
+    /*background-image:url("logo.png");*/
+}
+
+ul {
+    list-style-type: none;
+    margin: 10px;
+    padding: 0px;
+    overflow: hidden;
+    background-color: #333;
+    border-radius: 5px;
+    text-align: center;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    background-color: #000
+}
+
+li a:hover {
+    color: #000;
+    background-color: #fff;
+}
+
+#heading {
+    font-size: 250%;
+    text-align: center;
+    position: center;
+    font-style: italic;
+    text-shadow: 0.5px 0.5px red;
+    color: black;
+    font-family: "Century Gothic", "Gill Sans", Arial, sans-serif;
+    margin: 0px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    bottom: 0.5%;
+    -webkit-transform: translateY(-0.5%);
+    -ms-transform: translateY(-0.5%);
+    transform: translateY(-0.5%);
+}
+
+.auto-style1 {
+    margin: 10px;
+}
+
+#navbar ul li p {
+    margin-left: 350px;
+    color: white;
+}
+
+#container {}
+
+.section {
+    background-color: #b2cecf;
+    margin-left: 10px;
+    /*margin-bottom: 10px;*/
+    border-radius: 5px;
+    padding: 20px;
+    font-size: 105%;
+    height: 220px;
+    width: 240px;
+}
+
+.detailform {
+    float: right;
+    margin-right: 10px;
+}
+
+.section h1 {
+    color: black;
+    margin-left: 13px;
+    text-shadow: 1px 1px #ff0000;
+}
+
+.section:hover {
+    -webkit-transform: scale(1.05);
+    -ms-transform: scale(1.05);
+    transform: scale(1.05);
+}
+
+.section p {
+    margin-top: 5px;
+    text-align: center;
+    font-size: 20px;
+}
+
+#banner {
+    width: 50px;
+    height: 70px;
+}

@@ -1,0 +1,7 @@
+Master page has all our html code.
+and defalult.aspx has first content page only and is pulling the content from master card.
+default.aspx page get loaded when the website opens and its a front end page.
+Master page is just a template.
+default.aspx page has the path to master page as : MasterPageFile="~/MasterPage.master" /* ~ means root
+When we upload the website in the webserver, it will be like this only.
+Master page contains all the static section of the website that needs not to be edit and our content page(default.aspx)  all the content page. So both together make the one single page first page(index.html).

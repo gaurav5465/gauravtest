@@ -1,0 +1,106 @@
+﻿<%@ master language="C#" autoeventwireup="true" codefile="MasterPage.master.cs" inherits="MasterPage" %>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js" type="text/javascript"></script>
+<!DOCTYPE html>
+<html>
+<head runat="server">
+<meta charset="utf-8">
+<meta name="author" content="Hardeep Singh Negi"/>
+<meta name="description" content="This website saves you from financial crisis"/>
+<meta name="keywords" content="Money,Finance,Saving,Crisis"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<link rel="apple-touch-icon" sizes="57x57" href="~/apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="~/apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="~/apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="~/apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="~/apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="~/apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="~/apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="~/apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="~/apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192" href="~/android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="~/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="~/favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="~/favicon-16x16.png">
+<link rel="manifest" href="~/manifest.json">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+<link type="text/css" rel="stylesheet" href="Contact.css">
+<link type="text/css" rel="stylesheet" href="About.css">
+<link type="text/css" rel="stylesheet" href="style - Copy.css">
+<link type="text/css" rel="stylesheet" href="jqueryui/jquery-ui.css">
+<link type="text/css" rel="stylesheet" href="jqueryui/jquery-ui.structure.css">
+<link type="text/css" rel="stylesheet" href="jqueryui/jquery-ui.theme.css">
+<link href="slideshow/js-image-slider.css" rel="stylesheet" type="text/css"/>
+<script src="slideshow/js-image-slider.js" type="text/javascript"></script>
+
+<%--<script src="jquery-3.1.0.js"></script>
+<script src="jqueryui/jquery-ui.js"></script>
+--%> <title>Save Money</title>
+<asp:contentplaceholder id="head" runat="server">
+</asp:contentplaceholder>
+</head>
+<body onload="renderTime();">
+<div id="header">
+	<asp:contentplaceholder id="Headercontent1" runat="server">
+	</asp:contentplaceholder>
+</div>
+<div class="Form">
+	<asp:contentplaceholder id="Formcontent1" runat="server">
+	</asp:contentplaceholder>
+</div>
+<div id="quotes">
+	<asp:contentplaceholder id="Quotescontent1" runat="server">
+	</asp:contentplaceholder>
+</div>
+<div class="slideshow-container">
+	<asp:contentplaceholder id="slideshowcontainer1" runat="server">
+	</asp:contentplaceholder>
+</div>
+<div id="footer">
+	<asp:contentplaceholder id="Footer1" runat="server">
+	</asp:contentplaceholder>
+</div>
+<!--<div id="box">
+		 <p>Thank you for visiting our global warming site</p>
+		 <div>-->
+<div class="about">
+	<asp:contentplaceholder id="About1" runat="server">
+	</asp:contentplaceholder>
+</div>
+<div class="Contact">
+	<asp:contentplaceholder id="Contact1" runat="server">
+	</asp:contentplaceholder>
+</div>
+
+<script type="text/javascript">
+			// Automatic Slideshow - change image every 3 seconds
+			var myIndex = 0;
+			carousel();
+			function carousel() {
+				var i;
+				var x = document.getElementsByClassName("textquotes");
+				for (i = 0; i < x.length; i++) {
+					x[i].style.display = "none";
+				}
+				myIndex++;
+				if (myIndex > x.length) {myIndex = 1}
+				x[myIndex-1].style.display = "block";
+				setTimeout(carousel, 3000);
+			}
+			$(document).ready(function () {
+				//$("img").tooltip({show: {effect: "fadeIn", duration:500}},
+				//{hide: {effect: "fadeOut", duration:500}});
+				$("a").tooltip({ show: { effect: "fadeIn", duration: 500 } },
+									 { hide: { effect: "fadeOut", duration: 500 } });
+				$('#Username').tooltip({ show: { effect: "fadeIn", duration: 500 } },
+									 { hide: { effect: "fadeOut", duration: 500 } });
+				$('#Password').tooltip({ show: { effect: "fadeIn", duration: 500 } },
+										{ hide: { effect: "fadeOut", duration: 500 } })
+			});
+</script>
+<!--<div id="header">
+		<div id="title"><h1>Welcome to your Saving Site!</h1></div>
+		</div>-->
+</body>
+</html>

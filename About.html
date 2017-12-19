@@ -1,0 +1,46 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+    <title>About</title>
+    <link type="text/css" rel="stylesheet" href="About.css">
+    <link type="text/css" rel="stylesheet" href="jqueryui/jquery-ui.css">
+    <link type="text/css" rel="stylesheet" href="jqueryui/jquery-ui.structure.css">
+    <link type="text/css" rel="stylesheet" href="jqueryui/jquery-ui.theme.css">
+    <meta charset="utf-8" />
+</head>
+
+<body>
+    <div id="header">
+        <h1 id="heading">
+            <img id="image1" src="images/logo.png" />
+            <i>W</i>elcome <i>t</i>o <i>y</i>our <i>S</i>aving <i>S</i>ite!
+            <img id="image2" src="images/logo.png" />
+        </h1>
+
+    </div>
+
+    <div id="navbar">
+        <ul>
+            <li><a href="Default.aspx" title="Home">Home</a></li>
+        </ul>
+        <div id="logo"> <img id="image2" src="images/final.png"></div>
+    </div>
+
+    <div class="about">
+        <h2><u>About us</u></h2>
+        <p> This website is all about saving your money and to save you from financial crisis. </p>
+    </div>
+
+    <script src="jquery-3.1.0.js"></script>
+    <script src="jqueryui/jquery-ui.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function() {
+            $('#logo').fadeIn(3200);
+            $('.about').fadeIn(500);
+        });
+    </script>
+
+</body>
+
+</html>

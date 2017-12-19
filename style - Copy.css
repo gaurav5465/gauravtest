@@ -1,0 +1,405 @@
+body {
+	background-image: url("play.jpg");
+	/*background-color: #9c9f84;*/
+	margin: 0px;
+	font-family: Verdana, Georgia, serif;
+	font-size: 14px;
+}
+
+
+/*
+ h1{font-size: 250%;
+text-align:center;
+
+text-shadow: 0.5px 0.5px red;
+color:black;//e5e4d7
+font-family: "Century Gothic", "Gill Sans",Arial,sans-serif;
+margin:0px;
+position: relative;
+ top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+ }*/
+
+#header {
+	background-color: #5c755e;
+	margin: 10px;
+	height: 90px;
+	border-radius: 5px;
+	/*background-image:url(money.jpg);*/
+	/*background-image:url("logo.png");*/
+}
+
+
+/*logo code */
+
+
+/*.header img{
+
+	float: left;
+  width: 50px;
+  height: 50px;
+   top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+
+}*/
+
+#theForm {
+	color: white;
+	display: table;
+	padding: 15px;
+	background-color: #2C8F77;
+	border: solid 2px black;
+	margin-left: auto;
+	margin-right: 2px;
+	border-radius: 5px;
+}
+
+.row {
+	display: table-row;
+}
+
+	.row label {
+		display: table-cell;
+		padding: 2px;
+	}
+
+	.row input {
+		display: table-cell;
+		padding: 2px;
+	}
+
+
+/*#submit{
+display:inline;
+
+}*/
+
+#theForm .button {
+	/*background: #e7e7e7;*/
+	/*border: 1px solid;*/
+	border-radius: 10px;
+	font: 700 13px Helvetica, Arial;
+	height: 30px;
+	line-height: 28px;
+	padding: 0 134px;
+	/*padding:0 100px;*/
+	text-align: center;
+	margin-left: auto;
+	margin-right: 5px;
+	box-sizing: border-box;
+}
+
+ul {
+	padding: 0;
+	list-style-type: none;
+}
+
+li {
+	display: inline;
+}
+
+
+/*	 a {
+
+color: white;
+text-decoration:none;
+float:left;
+}
+a:hover {
+
+color:#000;
+background-color:#dadada;
+}	*/
+
+
+/*new code for changin text boxes */
+
+input[type=text],
+input[type=password] {
+	width: 70%;
+	padding: 5px 10px;
+	margin: 8px 0;
+	display: inline-block;
+	border: 1px solid #ccc;
+	box-sizing: border-box;
+}
+
+.button {
+	/*background-color: #4CAF50;*/
+	background-color: mediumseagreen;
+	/*/*color: #fff;*/
+	color: black;
+	padding: 14px 40px;
+	margin: 8px 0px;
+	width: 100%;
+	margin-top: 13px;
+	/*margin-right:5px;*/
+	border: none;
+	cursor: pointer;
+	display: inline;
+	box-shadow: 0 3px #999;
+}
+
+	.button:hover {
+		background-color: #3e8e41;
+		/*background-color:black;*/
+		border: medium;
+	}
+
+	.button:active {
+		background-color: #3e8e41;
+		box-shadow: 0 3px #666;
+		transform: translateY(4px);
+	}
+
+.Form {
+	float: right;
+	margin-right: 10px;
+	margin-top: 3px;
+	margin-bottom: 10px;
+	clear: right;
+}
+
+	.Form a {
+		text-decoration: none;
+		margin-top: 5px;
+		color: white;
+		/*margin-left:200px;*/
+		margin-left: 70px;
+		font-family: Arial;
+		margin-top: auto;
+		margin-bottom: auto;
+		font-size: 14px;
+	}
+
+
+/*for anchor tag two divison*/
+
+#registersection li {
+	display: inline;
+	margin-left: 170px;
+	/*margin-bottom:5px;*/
+}
+
+
+/*#registersection {
+
+	  margin-top:0px;
+
+  }*/
+
+.Form a:hover {
+	color: #ADFF2F;
+	text-decoration: none;
+}
+
+.slideshow-container {
+	max-width: 750px;
+	position: relative;
+	margin-left: 10px;
+	margin-top: 13px;
+	border-radius: 5px;
+	margin-right: 15px;
+	margin-bottom: 5px;
+}
+
+
+/* Next & previous buttons */
+
+.prev,
+.next {
+	cursor: pointer;
+	position: absolute;
+	top: 50%;
+	width: auto;
+	margin-top: -22px;
+	padding: 16px;
+	color: white;
+	font-weight: bold;
+	font-size: 18px;
+	transition: 0.6s ease;
+	border-radius: 0 3px 3px 0;
+}
+
+
+/* Position the "next button" to the right */
+
+.next {
+	right: 0;
+	border-radius: 3px 0 0 3px;
+}
+
+
+	/* On hover, add a black background color with a little bit see-through */
+
+	.prev:hover,
+	.next:hover {
+		background-color: rgba(0, 0, 0, 0.8);
+	}
+
+.active,
+.dot:hover {
+	background-color: #717171;
+}
+
+
+/* Fading animation */
+
+.fade {
+	-webkit-animation-name: fade;
+	-webkit-animation-duration: 1.5s;
+	animation-name: fade;
+	animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+	from {
+		opacity: .4;
+	}
+
+	to {
+		opacity: 1;
+	}
+}
+
+@keyframes fade {
+	from {
+		opacity: .4;
+	}
+
+	to {
+		opacity: 1;
+	}
+}
+
+
+/*Footer code */
+
+#footer {
+	background-color: #5c755e;
+	margin: 10px;
+	height: 80px;
+	clear: both;
+	border-radius: 5px;
+	color: #efe5d0;
+	text-align: center;
+	padding: 15px;
+	font-size: 90%;
+}
+
+	#footer ul {
+		padding: 5px;
+		list-style-type: none;
+		text-align: center;
+		margin: 5px;
+		border-radius: 5px;
+	}
+
+		#footer ul li {
+			display: inline-table;
+		}
+
+			#footer ul li a {
+				text-decoration: none;
+				font-family: Arial;
+				padding: .2em 1em;
+				color: #efe5d0;
+				background-color: #5c755e;
+			}
+
+				#footer ul li a:hover {
+					color: #000;
+					background-color: #fff;
+				}
+
+
+/*code for logo1 left */
+
+.image1 {
+	float: left;
+	margin-right: 10px;
+	margin-left: 50px;
+	margin-top: 7px;
+	margin-bottom: 5px;
+}
+
+
+/*code for logo1 right*/
+
+.image2 {
+	float: right;
+	margin-right: 50px;
+	margin-left: 10px;
+	margin-top: 7px;
+	margin-bottom: 5px;
+}
+
+
+/*code for logo and heading
+#heading{
+	text-align:center;
+	font-size:25px;
+	margin-top:5px;
+	margin-bottom:5px;
+	margin-right:auto;
+	margin-left:auto;
+
+}*/
+
+#heading {
+	font-size: 250%;
+	text-align: center;
+	position: center;
+	font-style: inherit;
+	text-shadow: 0.5px 0.5px red;
+	color: black;
+	font-family: "Century Gothic", "Gill Sans", Arial, sans-serif;
+	margin: 0px;
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+	bottom: 0.5%;
+	-webkit-transform: translateY(-0.5%);
+	-ms-transform: translateY(-0.5%);
+	transform: translateY(-0.5%);
+}
+
+
+/*clockDisplay code */
+
+#clockDisplay {
+	margin-left: 1000px;
+	margin-top: auto;
+	margin-bottom: auto;
+	/*margin-bottom: 20px;*/
+}
+
+#quotes {
+	float: right;
+	clear: right;
+	position: relative;
+	width: 320px;
+	height: 162px;
+	padding: 8px;
+	box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+	margin-top: 2px;
+	margin-right: 12px;
+	border-radius: 5px;
+	margin-bottom: 10px;
+	list-style-type: none;
+	background-color: #E6E6FA;
+	top: -11px;
+	left: -3px;
+}
+
+	#quotes h3 {
+		text-align: center;
+		color: black;
+		text-shadow: 2px 2px #F5F5DC;
+	}
+
+

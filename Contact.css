@@ -1,0 +1,110 @@
+body {
+ background-image:url("play.jpg");
+/*background-color: #9c9f84;*/
+margin: 0px;
+font-family: Verdana, Georgia, serif;
+font-size: 14px;
+                                
+}
+
+
+
+
+#header {
+
+background-color:#5c755e;
+margin: 10px;
+height: 90px;
+border-radius: 5px;
+/*background-image:url(money.jpg);*/
+/*background-image:url("logo.png");*/
+}
+
+#navbar ul {
+
+padding: 5px;
+list-style-type:none;
+text-align:center;
+background-color: #000;
+margin: 10px;
+border-radius: 5px;
+}
+ 
+#navbar ul li {
+
+display:inline;
+}
+
+#navbar ul li a {
+
+text-decoration:none;
+font-family:Arial;
+padding: .2em 1em;
+color: #fff;
+background-color:#000;
+}
+
+
+#navbar ul li a:hover {
+
+color: #000;
+background-color:#fff;
+}
+
+
+.Contact {
+background-color: #e5e4d7;
+margin-left:auto;
+margin-right: auto;
+margin-top: 10px;
+margin-bottom: 10px;
+border-radius: 20px;
+padding: 5px;
+font-size: 110%;
+border-style:solid;
+border-color:#800000;
+width:350px;
+display:none;
+
+}
+
+h2{
+	text-align:center;
+	margin-top:5px;
+	
+}
+p{
+	text-align:left;
+	margin-top:5px;
+	margin-bottom:5px;
+	margin-left:5px;
+	margin-right:5px;
+	font-size:102%;
+	
+}
+
+h3{
+	margin-left:5px;
+	
+}
+
+#heading{
+	
+	font-size: 250%;
+text-align:center;
+position:center;
+font-style:italic;
+
+
+text-shadow: 0.5px 0.5px red;
+color:black;
+font-family: "Century Gothic", "Gill Sans",Arial,sans-serif;
+margin:0px;
+position:relative;
+margin-left:auto;
+margin-right:auto;
+ bottom: 0.5%;
+  -webkit-transform: translateY(-0.5%);
+  -ms-transform: translateY(-0.5%);
+  transform: translateY(-0.5%);
+}
